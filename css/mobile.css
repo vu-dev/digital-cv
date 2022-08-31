@@ -1,0 +1,43 @@
+@media screen and (max-width: 767px) {
+  nav {
+    flex-direction: column;
+    align-items: start;
+    gap: 32px;
+    margin: 48px 0;
+  }
+  nav a:link,
+  nav a:visited {
+    padding: 0px;
+    border-left: none;
+  }
+  /*EDIT CHO PHAN DU CHUNG CHI GIAI THUONG*/
+  .cc2 {
+    padding-left: 0;
+    border-left: none;
+  }
+  .cc3 {
+    border-bottom: 2px solid #d6c08d;
+    margin-bottom: 48px;
+  }
+
+  /*EDIT CHO PHAN DU AN*/
+  .div-pj {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 18px;
+  }
+  .inline-div {
+    display: block;
+  }
+
+  /*EDIT CHO PHAN FOOTER*/
+
+  #footer i {
+    font-size: 36px;
+    color: #199cdb;
+  }
+  .footer {
+    gap: 12px;
+  }
+}

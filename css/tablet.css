@@ -1,0 +1,12 @@
+@media screen and (max-width: 991px) {
+  .ccdn {
+    flex-direction: column;
+  }
+  .vu-avatar {
+    display: none;
+  }
+  .div-pj {
+    font-size: 16px;
+    gap: 8px;
+  }
+}
